@@ -42,4 +42,6 @@ public class Docente extends PersonaAcademica{
             System.out.println("Valor de hora no admitido");
         }
     }
+
+
 }

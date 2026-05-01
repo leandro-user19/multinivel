@@ -35,8 +35,12 @@ public class DocenteInvestigador extends Docente {
 
     @Override
     public void describirRol() {
-        System.out.println("Rol: Docente Investigador");
+        System.out.println("Rol: Docente Investigador" );
+        System.out.println("Pago Extra: "+ calcularPago(50));
+
+
     }
+
 
 
 }

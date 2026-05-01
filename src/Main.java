@@ -25,9 +25,12 @@ public class Main {
 
         PersonaAcademica p = new DocenteInvestigador(codigo, nombre, edad, horas, valorHora, publicaciones);
 
-        p.mostrarDatos();
-        p.describirRol();
-        System.out.println("Pago: " + p.calcularPago());
+        DocenteInvestigador d= new DocenteInvestigador(codigo, nombre, edad, horas, valorHora, publicaciones);
+        d.mostrarDatos();
+        d.describirRol();
+        System.out.println("Publicaciones: " + d.getPublicaciones());
+        System.out.println("Valor por hora: " + d.getValorHora());
+        System.out.println("Pago: " + d.calcularPago());
 
 
     }
