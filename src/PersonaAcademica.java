@@ -41,7 +41,7 @@ public abstract class PersonaAcademica {
         if (edad <18) {
             System.out.println("Edad inválido");
         } else {
-            this.nombre = nombre;
+            this.edad = edad;
         }
     }
 

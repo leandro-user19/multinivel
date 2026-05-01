@@ -16,7 +16,7 @@ public class Docente extends PersonaAcademica{
     @Override
     public double calcularPago() {
 
-        return horasClase*valorHora;
+        return getHorasClase()*valorHora;
     }
 
     public int getHorasClase() {
